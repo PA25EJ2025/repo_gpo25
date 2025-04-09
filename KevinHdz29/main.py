@@ -7,3 +7,5 @@ class Mi_clase:
         return self.num1 + self.num2 + self.num3
     def mayor(self):
         return max(self.num1,self.num2,self.num3)
+    def menor(self):
+        return min(self.num1,self.num2,self.num3)
