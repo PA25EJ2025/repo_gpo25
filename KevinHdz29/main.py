@@ -5,3 +5,5 @@ class Mi_clase:
         self.num3 = num3
     def sumar(self):
         return self.num1 + self.num2 + self.num3
+    def mayor(self):
+        return max(self.num1,self.num2,self.num3)
