@@ -9,3 +9,5 @@ class Mi_clase:
         return max(self.num1,self.num2,self.num3)
     def menor(self):
         return min(self.num1,self.num2,self.num3)
+    def concatenar(self):
+        return str(self.num1) + str(self.num2) + str(self.num3)
