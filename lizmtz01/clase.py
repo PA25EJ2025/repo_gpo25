@@ -13,4 +13,12 @@ class Mi_clase():
     def menor(self):
         return min(self.num1,self.num2,self.num3)
     
+    def iguales(self):
+        if self.num1 == self.num2 and self.num2 == self.num3:
+            return True
+        else:
+            return False
+    def concatenar(self):
+        return str(self.num1) + str(self.num2) + str(self.num3)
+    
     
