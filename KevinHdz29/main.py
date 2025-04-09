@@ -16,3 +16,19 @@ class Mi_clase:
             return False
     def concatenar(self):
         return str(self.num1) + str(self.num2) + str(self.num3)
+    
+n1 = int(input("Ingrese num1: "))
+n2 = int(input("Ingrese num2: "))
+n3 = int(input("Ingrese num3: "))
+
+numeros = Mi_clase(n1,n2,n3)
+print("Suma:")
+print(numeros.sumar())
+print("Mayor:")
+print(numeros.mayor())
+print("Menor:")
+print(numeros.menor())
+print("Iguales:")
+print(numeros.iguales())
+print("Concatenar:")
+print(numeros.concatenar())
