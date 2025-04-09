@@ -14,7 +14,7 @@ class Mi_clase:
         return min(self.num1,self.num2,self.num3)
     
     def iguales(self):
-        if self.num1 and self.num2 and self.num3:
+        if self.num1 == self.num2 and self.num2 == self.num3:
             return True
         else:
             return False
