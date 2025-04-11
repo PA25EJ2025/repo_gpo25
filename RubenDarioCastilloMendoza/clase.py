@@ -20,4 +20,7 @@ class Numeros:
         else:
             return False
         
+    def Concatenar(self):
+        return str(self.num1) + str(self.num2) + str(self.num3)
+    
     
