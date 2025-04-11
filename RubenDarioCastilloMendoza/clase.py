@@ -13,3 +13,11 @@ class Numeros:
     
     def menor(self):
         return min(self.numero1,self.numero2,self.numero3)
+    
+    def Iguales(self):
+        if self.numero1 == self.numero2 and self.numero2 == self.numero3:
+            return True
+        else:
+            return False
+        
+    
