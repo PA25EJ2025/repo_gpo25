@@ -7,3 +7,8 @@ class Numeros:
 
     def sumar(self):
         return self.numero1 + self.numero2 + self.numero3
+    
+    def mayor(self):
+        return max(self.num1,self.num2,self.num3)
+    
+    
