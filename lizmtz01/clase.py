@@ -21,4 +21,15 @@ class Mi_clase():
     def concatenar(self):
         return str(self.num1) + str(self.num2) + str(self.num3)
     
-    
+
+num1 = int(input("Ingresa un numero"))
+num2 = int(input("Ingresa un numero"))
+num3 = int(input("Ingresa un numero"))
+
+numeros = Mi_clase(num1, num2, num3)
+
+print(f"Suma de los numeros: ", numeros.sumar())
+print(f"El numero mayor es: ", numeros.mayor())
+print(f"El numero menor es. ", numeros.menor())
+print(f"Los numeros iguales son ", numeros.iguales())
+print(f"Concatenar numeros:", numeros.concatenar())
