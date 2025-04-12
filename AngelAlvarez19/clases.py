@@ -5,8 +5,7 @@ class Numeros:
         self.num3 = num3
     
     def SUMA(self):
-        Suma = (self.num1) + (self.num2) + (self.num3)
-        return Suma
+        return(self.num1) + (self.num2) + (self.num3)
     
     def MAYOR(self):
         return max(self.num1, self.num2, self.num3)
