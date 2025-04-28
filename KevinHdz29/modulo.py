@@ -5,7 +5,7 @@ class Perfil:
         self.y = y
         self.ancho = ancho
         self.alto = alto
-        self.imagen = pygame.image.load("foto.png")
+        self.imagen = pygame.image.load("KevinHdz29/foto.png")
         self.velocidad = velocidad
     def mostrar(self,ventana):
         ventana.blit(self.imagen,(self.x,self.y,self.ancho,self.alto))
