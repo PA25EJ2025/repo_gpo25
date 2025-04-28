@@ -1,0 +1,2 @@
+class Perfil:
+    pass
