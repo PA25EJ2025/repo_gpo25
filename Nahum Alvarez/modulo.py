@@ -1,1 +1,1 @@
-import pygame
+class Perfil:
