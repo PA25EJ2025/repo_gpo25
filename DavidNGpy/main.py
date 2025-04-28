@@ -13,7 +13,7 @@ pygame.init()
 ventana=pygame.display.set_mode((ANCHO_VENTANA,ALTO_VENTANA))
 reloj=pygame.time.Clock()
 #4. Cargar recursos (imagenes)
-foto=pygame.image.load("foto")
+foto=pygame.image.load("foto.png")
 #5. Inicializar variables
 
 #6. Ciclo infinito
