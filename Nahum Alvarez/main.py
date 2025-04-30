@@ -1,9 +1,12 @@
-import pygame
-    pass
-
 #1. Importar el framework o paquete
+import pygame
+import sys
 
 #2. Definir constantes
+ancho_ventana = 600
+alto_ventana = 400
+color_fondo = 80, 31, 96
+fps = 60
 
 #3. Inicializar pygame
 
@@ -21,5 +24,3 @@ import pygame
     #11. Actualizar la ventana
     
     #12. Ralentizar un poco las cosas
-
-#Prueba
