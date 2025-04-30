@@ -28,8 +28,8 @@ while True:
     
     for evento in pygame.event.get():
         if evento.type == QUIT:
-            pygame.quit
-            sys.exit
+            pygame.quit()
+            sys.exit()
 
     ventana.fill(NEGRO)
     icon.mostrar(ventana,icon.x,icon.y)
