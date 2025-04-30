@@ -8,5 +8,5 @@ class Perfil:
         self.velocidad = velocidad
         self.imagen = pygame.image.load(imagen)
 
-    def mostrar(self,x,y,ventana):
-        ventana.blit(self.imagen,(x,y))
+    def mostrar(self,ventana):
+        ventana.blit(self.imagen,(self.x,self.y))
