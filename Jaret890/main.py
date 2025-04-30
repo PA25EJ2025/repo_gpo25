@@ -12,7 +12,7 @@ pygame.init()
 ventana = pygame.display.set_mode((ANCHO_VENTANA,ALTO_VENTANA))
 reloj = pygame.time.Clock()
 
-icon = modulo.Perfil(0,0,0,0,0,'Shinoa_icon')
+icon = modulo.Perfil(0,0,0,0,5,'Jaret890/Shinoa_icon')
 
 while True:
     tecla = pygame.key.get_pressed()
