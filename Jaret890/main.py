@@ -18,9 +18,9 @@ while True:
     tecla = pygame.key.get_pressed()
 
     if tecla[pygame.K_UP]:
-        icon.y += icon.velocidad
-    elif tecla[pygame.K_DOWN]:
         icon.y -= icon.velocidad
+    elif tecla[pygame.K_DOWN]:
+        icon.y += icon.velocidad
     elif tecla[pygame.K_RIGHT]:
         icon.x += icon.velocidad
     elif tecla[pygame.K_LEFT]:
