@@ -9,7 +9,7 @@ ALTO_VENTANA = 650
 FPS = 60
 
 pygame.init()
-ventana = pygame.display.set_mode((ANCHO_VENTANA,ALTO_VENTANA))
+ventana = pygame.display.set_mode((ANCHO_VENTANA, ALTO_VENTANA))
 reloj = pygame.time.Clock()
 
 icon = modulo.Perfil(0,0,0,0,5,'Jaret890/Shinoa_icon.jpg')
