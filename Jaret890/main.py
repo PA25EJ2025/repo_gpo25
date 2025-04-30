@@ -27,7 +27,7 @@ while True:
         icon.x -= icon.velocidad
     
     for evento in pygame.event.get():
-        if evento.type == QUIT():
+        if evento.type == QUIT:
             pygame.quit
             sys.exit
 
