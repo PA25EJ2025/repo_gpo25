@@ -7,7 +7,7 @@ import random
 #2. Definir constantes
 ANCHO_VENTANA = 640
 ALTO_VENTANA = 480
-COLOR = (0, 0, 0)
+COLOR = (0, 250, 0)
 FPS = 30
 SIZE_CUADRO = 10
 ANCHO_MAX = ANCHO_VENTANA - SIZE_CUADRO
@@ -51,4 +51,4 @@ while True:
     pygame.display.flip()
 
     #12. Ralentizar un poco las cosas
-    reloj.tick(40)
+    reloj.tick(30)
