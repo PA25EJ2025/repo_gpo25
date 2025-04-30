@@ -1,7 +1,7 @@
 import pygame
 import sys
 from pygame.locals import *
-from perfil import Perfil
+from clases import PerfilDavid
 
 ANCHO_VENTANA = 840
 ALTO_VENTANA = 480
@@ -13,7 +13,7 @@ ventana = pygame.display.set_mode((ANCHO_VENTANA, ALTO_VENTANA))
 pygame.display.set_caption("Mover Foto de Perfil")
 
 reloj = pygame.time.Clock()
-foto_perfil = Perfil(0, 0, 80, 80, 10)
+foto_perfil = PerfilDavid(0, 0, 80, 80, 10)
 
 while True:
     for evento in pygame.event.get():
