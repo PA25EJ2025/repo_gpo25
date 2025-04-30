@@ -6,7 +6,7 @@ class Perfil:
         self.ancho = ancho
         self.alto = alto
         self.velocidad = velocidad
-        self.imagen = pygame.image.load(imagen)
+        self.imagen = pygame.image.load('Shinoa_icon.jpg')
 
     def mostrar(self,x,y,ventana):
         ventana.blit(self.imagen,(self.x,self.y))
