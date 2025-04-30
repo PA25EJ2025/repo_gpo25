@@ -32,6 +32,6 @@ while True:
             sys.exit()
 
     ventana.fill(NEGRO)
-    icon.mostrar(ventana,icon.x,icon.y)
+    icon.mostrar(ventana)
     pygame.display.update()
     reloj.tick(FPS)
