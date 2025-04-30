@@ -1,6 +1,7 @@
 import pygame
+from main import foto_perfil
 
-class Perfil:
+class PerfilNahum:
     def __init__(self, x, y, alto, ancho, velocidad):
         self.x = x
         self.y = y
