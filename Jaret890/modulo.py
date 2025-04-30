@@ -9,4 +9,4 @@ class Perfil:
         self.imagen = pygame.image.load('Jaret890/Shinoa_icon.jpg')
 
     def mostrar(self,x,y,ventana):
-        ventana.blit(self.imagen,(self.x,self.y))
+        ventana.blit(self.imagen,(x,y))
