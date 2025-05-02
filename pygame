@@ -1,0 +1,54 @@
+import pygame
+import sys
+
+# Clase Perfil
+class Perfil:
+    def __init__(self, x, y, alto, ancho, velocidad, imagen):
+        self.x = x
+        self.y = y
+        self.alto = alto
+        self.ancho = ancho
+        self.velocidad = velocidad
+        self.imagen = pygame.transform.scale(pygame.image.load(imagen), (ancho, alto))
+
+    def mostrar(self, ventana):
+        ventana.blit(self.imagen, (self.x, self.y))
+
+# Inicializar Pygame
+pygame.init()
+ANCHO_PANTALLA = 800
+ALTO_PANTALLA = 600
+ventana = pygame.display.set_mode((ANCHO_PANTALLA, ALTO_PANTALLA))
+pygame.display.set_caption("Práctica 3 - Mover Perfil")
+
+# Crear instancia de Perfil
+perfil = Perfil(100, 100, 80, 80, 5, "foto.png")  # Asegúrate de tener una imagen llamada 'foto.png'
+
+# Bucle principal
+reloj = pygame.time.Clock()
+ejecutando = True
+while ejecutando:
+    reloj.tick(60)
+    ventana.fill((255, 255, 255))  # Fondo blanco
+
+    for evento in pygame.event.get():
+        if evento.type == pygame.QUIT:
+            ejecutando = False
+
+    # Movimiento con teclas
+    teclas = pygame.key.get_pressed()
+    if teclas[pygame.K_UP]:
+        perfil.y -= perfil.velocidad
+    if teclas[pygame.K_DOWN]:
+        perfil.y += perfil.velocidad
+    if teclas[pygame.K_LEFT]:
+        perfil.x -= perfil.velocidad
+    if teclas[pygame.K_RIGHT]:
+        perfil.x += perfil.velocidad
+
+    # Mostrar imagen
+    perfil.mostrar(ventana)
+    pygame.display.update()
+
+pygame.quit()
+sys.exit()
