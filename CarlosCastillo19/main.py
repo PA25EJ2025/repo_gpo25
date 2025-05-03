@@ -15,7 +15,7 @@ fondo = pygame.image.load("CarlosCastillo19/Fondo-Videojuego.jpg")
 fondo = pygame.transform.scale(fondo, (ANCHO, ALTO))
 
 # Crear el perfil
-perfil = PerfilCarlos("CarlosCastillo19/FotoPerfil.png", ANCHO // 2, ALTO // 2)
+perfil = PerfilCarlos("CarlosCastillo19/FotoPerfil.png", ANCHO // 2, ALTO // 2
 
 # Reloj
 reloj = pygame.time.Clock()
@@ -36,16 +36,16 @@ while True:
     reloj.tick(60)
 
 
-#1. Importar el framework o paquete
+1. Importar el framework o paquete
 
 #2. Definir constantes
 
-#3. Inicializar pygame
+3. Inicializar pygame
 
 #4. Cargar recursos (imagenes)
 #5. Inicializar variables
 
-#6. Ciclo infinito
+6. Ciclo infinito
     #7. Verificar y manejar los eventos
     #8. Realizar cualquier acción por frame
 
